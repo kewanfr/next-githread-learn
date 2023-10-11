@@ -1,4 +1,4 @@
-This is a cool project in [Next.js](https://nextjs.org/). It goals is to learn to use Next Js with a clone of Threads app by Meta but with git login, so it's called Gitthread
+This is a cool project in [Next.js](https://nextjs.org/). The goals is to learn to use Next Js with a clone of Threads app by Meta but with git login, so it's called Gitthread
 
 <table>
   <thead>
