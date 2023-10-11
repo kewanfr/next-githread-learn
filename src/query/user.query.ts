@@ -58,8 +58,14 @@ export const getUserProfile = async (userId: string) => {
               username: true
             }
           }
+        },
+        take: 3,
+        orderBy: {
+          createdAt: "desc"
         }
       }
     },
   });
 }
+
+export type UserProfile = NonNullable<Prisma.PromiseReturnType<typeof getUserProfile>>;

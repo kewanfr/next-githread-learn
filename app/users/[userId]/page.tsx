@@ -1,5 +1,8 @@
 import { getAuthSession } from '@/lib/auth'
+import { getUserProfile } from '@/src/query/user.query';
 import React from 'react'
+import Profile from './Profile';
+import { notFound } from 'next/navigation';
 
 export default async function UserPage({params}: {
   params:{
@@ -8,7 +11,12 @@ export default async function UserPage({params}: {
 }) {
   const session = await getAuthSession();
   const user = await getUserProfile(params.userId);
+
+  if (!user) {
+    return notFound();
+  }
+
   return (
-    <div>page</div>
+    <Profile user={user} />
   )
 }
