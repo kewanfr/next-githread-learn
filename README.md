@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a cool project in [Next.js](https://nextjs.org/). The goals is to learn to use Next Js with a clone of Threads app by Meta but with git login, so it's called Gitthread
 
-## Getting Started
+<table>
+  <thead>
+    <tr>
+      <th width="500px"> Mode Sombre</th>
+      <th width="500px">Mode clair</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr width="600px">
+      <td>
 
-First, run the development server:
+![image](https://github.com/kewanfr/next-githread-learn/assets/60780493/3c65e5a9-332f-4c47-83b3-a63f7ae9a167)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+</td>
+<td>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![image](https://github.com/kewanfr/next-githread-learn/assets/60780493/65624651-99a9-4385-80da-fc0c73df0b94)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+</td>
+</tr>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  </tbody>
+</table>
 
-## Learn More
+## Examples
+![image](https://github.com/kewanfr/next-githread-learn/assets/60780493/63a1a50d-dc31-4135-953c-c7a476e43efc)
 
-To learn more about Next.js, take a look at the following resources:
+![image](https://github.com/kewanfr/next-githread-learn/assets/60780493/7662f558-e6d5-4d67-a762-c24071a105d4)
+![image](https://github.com/kewanfr/next-githread-learn/assets/60780493/4fa2c48a-308f-4cf0-83a3-8652b96e7455)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
