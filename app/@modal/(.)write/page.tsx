@@ -5,5 +5,5 @@ import { createPost } from "../../write/write-post.action";
 
 export default async function Page() {
   const user = await getUser();
-  return <WriteModal user={user} createPost={createPost} />;
+  return <WriteModal path="write" user={user} createPost={createPost} />;
 }
